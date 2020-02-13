@@ -206,3 +206,73 @@ footer{
 }
 
 /*CSS for the Services Page starts here! */
+
+
+
+.services-header-img{
+	padding: 0 2% 6%;
+    position: relative;
+}
+
+.logo{
+	position: relative;
+ 	right:11%;
+    top: -5%;
+}
+
+.Services{
+	width: 95.5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+hr{
+	border 1px solid grey;
+	margin: 1%;
+}
+
+.Design{
+	display: flex;
+    padding: 2%;
+    width: 102%;
+}
+
+.row2{
+	display:flex;
+	padding: 2%;
+    width: 102%;
+}
+
+.mobile{
+	display:flex;
+	padding: 2%;
+    width: 102%;
+}
+
+.Facts{
+	display:flex;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	padding-top:1%;
+	width: 47%;
+}
+
+div{
+	box-sizing:border-box;
+	border 1px solid black;
+}
+
+ol, ul{
+	list-style:circle;
+	padding-top: 2%;
+    padding-left: 12%;
+}
+
+img{
+	display: flex;
+    padding-right: 18%;
+	padding-left: 50%;
+	padding-top: 4%;
+	position: relative;
+    bottom: 20%;
+}
