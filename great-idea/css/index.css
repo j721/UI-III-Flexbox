@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navigation{
+	width: 900px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left:5%;
+}
+
+header nav{
+	display:flex;
+	padding-top: 3%;
+}
+
+header nav a{
+	color: lightslategrey;
+	padding:3%;
+}
+
+ .logo {
+    padding-left: 71%;
+	padding-bottom: 7%;
+}
+
+
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left{
+	width: 40%;
+	position: relative;
+    left: 20%;
+	padding-top: 13%;
+	padding-right:20%;
+	padding-left:7%;
+}
+
+#Innovation{
+	position: relative;
+    right: 10%;
+}
+
+img{
+	display: flex;
+	padding-right:18%;
+
+}
+
+h1{
+	position: relative;
+    bottom: 96px;
+    right: 25%;
+    font-size: 77px;
+}
+
+
+hr{
+	border: 1px solid grey;
+	display:flex;
+}
+
+#On{
+	position:relative;
+	left: 70px;
+}
+
+#Demand{
+	position:relative;
+	right: 3%
+}
+
+
+#button{
+	border: 1px solid black;
+	height: 31px;
+    width: 163px;
+    position: relative;
+    bottom: 104px;
+    right: 21%;
+	padding-top: 1%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.middle{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 3%;
+	padding-right: 11%;
+}
+
+.Features{
+    width: 36.5%;
+    text-align: left;
+}
+
+.About{
+    width: 34%;
+    text-align: left;
+}
+
+.middle-img{
+	width: 90%;
+    display: flex;
+    padding-left: 8%;
+}
+
+.bottom{
+	display:flex;
+	justify-content:space-evenly;
+	padding: 3%;
+}
+
+.Services{
+	text-align:left;
+	width: 25%;
+}
+
+.Product{
+	text-align:left;
+  	width:25%;
+}
+
+.Vision{
+	text-align:left;
+  	width:25%;
+}
+
+.Contact{
+	padding-left: 6%;
+    padding-top: 3%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+/*CSS for the Services Page starts here! */
