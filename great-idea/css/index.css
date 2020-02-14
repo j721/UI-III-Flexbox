@@ -65,60 +65,62 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.body{
+	max-width: 880px;
+	margin: 0 auto;
+}
+
 .navigation{
 	width: 900px;
 	display:flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding-left:5%;
 }
 
+header{
+	display:flex;
+	justify-content: space-between;
+}
 header nav{
 	display:flex;
-	padding-top: 3%;
+	width: 600px;
+	justify-content: space-around;
 }
 
+.lightbulb{
+	margin-right:9%;
+}
 header nav a{
 	color: lightslategrey;
-	padding:3%;
-}
-
- .logo {
-    padding-left: 71%;
-	padding-bottom: 7%;
-}
-
-
-.top{
-	display: flex;
-	justify-content: space-between;
 }
 
 .left{
-	width: 40%;
-	position: relative;
-    left: 20%;
-	padding-top: 13%;
-	padding-right:20%;
-	padding-left:7%;
+	display:flex;
+	justify-content: space-evenly;
+	width: 95%;
+	margin-top:2%;
 }
 
-#Innovation{
-	position: relative;
-    right: 10%;
-}
-
-img{
-	display: flex;
-	padding-right:18%;
-
+.left .left-text{
+	display:flex;
+	justify-content:center;
+	width: 48%;
+	flex-flow:column;
+	align-items: center;
+	font-size:70px;
+	letter-spacing: 5px;
 }
 
 h1{
-	position: relative;
-    bottom: 96px;
-    right: 25%;
-    font-size: 77px;
+	font-size: 77px;
+	text-align:center;
+}
+
+button{
+	border: 1px solid black;
+	padding:1%;
+	width: 32%;
+	font-size: 13px;
 }
 
 
@@ -127,32 +129,10 @@ hr{
 	display:flex;
 }
 
-#On{
-	position:relative;
-	left: 70px;
-}
-
-#Demand{
-	position:relative;
-	right: 3%
-}
-
-
-#button{
-	border: 1px solid black;
-	height: 31px;
-    width: 163px;
-    position: relative;
-    bottom: 104px;
-    right: 21%;
-	padding-top: 1%;
-	text-align: center;
-	box-sizing: border-box;
-}
 
 .middle{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	padding: 3%;
 	padding-right: 11%;
 }
@@ -176,35 +156,43 @@ hr{
 .bottom{
 	display:flex;
 	justify-content:space-evenly;
-	padding: 3%;
+	width: 89%;
+    margin-left: 7%;
+	margin-top: 2%;
+	margin-bottom: 4%;
 }
 
 .Services{
 	text-align:left;
-	width: 25%;
+	width: 30%;
 }
 
 .Product{
 	text-align:left;
-  	width:25%;
+  	width:30%;
 }
 
 .Vision{
 	text-align:left;
-  	width:25%;
+  	width:30%;
 }
 
 .Contact{
-	padding-left: 6%;
-    padding-top: 3%;
+ padding:4%;
 }
 
 footer{
 	text-align: center;
-	padding-top: 4%;
-    padding-bottom: 6%;
+	
 }
 
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
+/*CSS for the Services Page starts here! */
 /*CSS for the Services Page starts here! */
 
 
@@ -214,21 +202,17 @@ footer{
     position: relative;
 }
 
-.logo{
-	position: relative;
- 	right:11%;
-    top: -5%;
-}
 
-.Services{
+
+/* .Services{
 	width: 95.5%;
     padding-bottom: 2%;
     padding-left: 2%;
-}
+} */
 
 hr{
-	border 1px solid grey;
-	margin: 1%;
+	border: 1px solid grey;
+	margin: 3%;
 }
 
 .Design{
@@ -257,20 +241,13 @@ hr{
 	width: 47%;
 }
 
-button{
-	border 1px solid black;
-	padding:2%;
-	position:relative;
-	top: 9px; 
-}
-
 ol, ul{
 	list-style:circle;
 	padding-top: 2%;
     padding-left: 12%;
 }
 
-img{
+.services-info-img{
 	display: flex;
     padding-right: 18%;
 	padding-left: 50%;
