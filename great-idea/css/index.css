@@ -257,9 +257,11 @@ hr{
 	width: 47%;
 }
 
-div{
-	box-sizing:border-box;
+button{
 	border 1px solid black;
+	padding:2%;
+	position:relative;
+	top: 9px; 
 }
 
 ol, ul{
@@ -276,3 +278,4 @@ img{
 	position: relative;
     bottom: 20%;
 }
+
